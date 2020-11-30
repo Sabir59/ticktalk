@@ -1,0 +1,160 @@
+$bgcolor-primary: #2e86de;
+// REGISTER
+.Register {
+  width: 30rem;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 4rem 3rem;
+
+  &__title {
+    font-weight: normal;
+    font-size: 2.8rem;
+    letter-spacing: 0.2em;
+    color: $bgcolor-primary;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  // FORM
+  &__form {
+    position: relative;
+
+    & > :not(:last-child) {
+      margin-top: 3rem;
+    }
+  }
+  // INPUT
+  &__input {
+    background: #ffffff;
+    box-shadow: -4px -4px 14px rgba(222, 221, 255, 0.25),
+      4px 4px 14px rgba(222, 221, 255, 0.25);
+    border-radius: 4px;
+    border: none;
+    padding: 0.7rem 2rem;
+    width: 100%;
+    position: relative;
+
+    &:focus {
+      outline: none;
+    }
+    &:not(:last-of-type) {
+      margin-bottom: 2rem;
+    }
+  }
+  // SHOW PASSWORD
+  &__showPassword {
+    color: $bgcolor-primary;
+    margin-left: -2.5rem;
+    margin-top: 0.7rem;
+    font-size: 1.4rem;
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+  }
+  // SOCIAL SIGNUP
+  &__socialSignUp {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    &_title {
+      letter-spacing: 0.1rem;
+      font-weight: normal;
+      margin-bottom: 2rem;
+    }
+  }
+  &__iconGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__icon {
+    background: #ffffff;
+    box-shadow: -4px -4px 14px rgba(233, 232, 255, 0.5),
+      4px 4px 14px rgba(233, 232, 255, 0.5);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s;
+    cursor: pointer;
+    &:hover {
+      animation: upDown infinite 0.6s;
+    }
+    &_facebook {
+      color: #4267b2;
+    }
+    &_google {
+      color: #db4a39;
+    }
+    &_twitter {
+      color: #00acee;
+    }
+  }
+  // STAY SIGNED
+  &__staySigned {
+    text-align: left;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: $bgcolor-primary;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    input {
+      cursor: pointer;
+    }
+    label {
+      cursor: pointer;
+    }
+    &_text {
+      margin-left: 1rem;
+    }
+  }
+  // BUTTON
+  &__button {
+    width: 100%;
+    background: $bgcolor-primary;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 0.7rem 2rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__span {
+    font-size: 1.4rem;
+  }
+  // ERROR
+  &__error {
+    color: red;
+    position: absolute;
+    // bottom: 0;
+    top: 95%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+// KEYFRAME FOR ICONS
+@keyframes upDown {
+  0% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.error {
+  border: 1px solid red;
+}

@@ -1,0 +1,123 @@
+//A JSON Object to store Messages,
+{
+  "messages" : {
+    "8OK45ydMzYTMS5g9DBsLLRjpl352" : {
+      "hgQITjeE2bhpopcWOTcQwgxTSCW2" : {
+        "-MNHeG46bFpiGE1x68Rs" : {
+          "content" : "hello Ahmad",
+          "timestamp" : 1606630838915,
+          "user" : {
+            "avatar" : "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=PastelRed&clotheType=ShirtScoopNeck&eyeType=Cry&eyebrowType=Angry&facialHairColor=Black&facialHairType=MoustacheFancy&hairColor=Blonde&hatColor=Blue03&mouthType=Twinkle&skinColor=Black&topType=ShortHairShortFlat",
+            "id" : "8OK45ydMzYTMS5g9DBsLLRjpl352",
+            "name" : "Sabir Nawaz"
+          }
+        },
+        "-MNHeM67zGvo62Juk9bL" : {
+          "content" : "How are you Sabir..?",
+          "timestamp" : 1606630863662,
+          "user" : {
+            "avatar" : "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=PastelYellow&clotheType=Hoodie&eyeType=Wink&eyebrowType=RaisedExcitedNatural&facialHairColor=Platinum&facialHairType=MoustacheMagnum&hairColor=Black&hatColor=White&mouthType=Concerned&skinColor=Light&topType=LongHairFrida",
+            "id" : "hgQITjeE2bhpopcWOTcQwgxTSCW2",
+            "name" : "Ahmad"
+          }
+        }
+      }
+    }
+  },
+ // A JSON Object to store the status of users if online or offline 
+  "presence" : {
+    "8OK45ydMzYTMS5g9DBsLLRjpl352" : true,
+    "hgQITjeE2bhpopcWOTcQwgxTSCW2" : true
+  },
+ // A JSON Object to store users information 
+  "users" : {
+    "-MKm9ilLVpMgXSRK9rk3" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Prescription02&avatarStyle=Circle&clotheColor=Gray01&clotheType=ShirtVNeck&eyeType=Wink&eyebrowType=RaisedExcited&facialHairColor=Brown&facialHairType=BeardMedium&hairColor=Brown&hatColor=PastelGreen&mouthType=Serious&skinColor=Tanned&topType=WinterHat2",
+      "bio" : "",
+      "email" : "sabirnawaz535@gmail.com",
+      "name" : "Sabir Nawaz",
+      "workAt" : ""
+    },
+    "-MKmF18JnPn3Re3U43SP" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Prescription02&avatarStyle=Circle&clotheColor=PastelBlue&clotheType=Hoodie&eyeType=Side&eyebrowType=UnibrowNatural&facialHairColor=BlondeGolden&facialHairType=MoustacheFancy&hairColor=Auburn&hatColor=Pink&mouthType=Serious&skinColor=Yellow&topType=ShortHairShortCurly",
+      "bio" : "",
+      "email" : "sabirnawaz59@gmail.com",
+      "name" : "Sa",
+      "workAt" : ""
+    },
+    "8OK45ydMzYTMS5g9DBsLLRjpl352" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=PastelRed&clotheType=ShirtScoopNeck&eyeType=Cry&eyebrowType=Angry&facialHairColor=Black&facialHairType=MoustacheFancy&hairColor=Blonde&hatColor=Blue03&mouthType=Twinkle&skinColor=Black&topType=ShortHairShortFlat",
+      "bio" : "",
+      "email" : "sabirnawaz59@gmail.com",
+      "name" : "Sabir Nawaz",
+      "workAt" : ""
+    },
+    "OgLCKMgsunbUcc4OkffQPCj6wu12" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Sunglasses&avatarStyle=Circle&clotheColor=PastelYellow&clotheType=Hoodie&eyeType=Cry&eyebrowType=RaisedExcited&facialHairColor=Blonde&facialHairType=BeardMagestic&hairColor=BlondeGolden&hatColor=PastelGreen&mouthType=Twinkle&skinColor=Tanned&topType=LongHairBob",
+      "bio" : "",
+      "email" : "jawad@gmail.com",
+      "name" : "Jawad",
+      "workAt" : ""
+    },
+    "Q7OBOo8NeSfuakIVitjYeuG22Lb2" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=Gray02&clotheType=GraphicShirt&eyeType=Happy&eyebrowType=RaisedExcited&facialHairColor=Black&facialHairType=Blank&hairColor=Brown&hatColor=Blue03&mouthType=Default&skinColor=DarkBrown&topType=LongHairCurly",
+      "bio" : "",
+      "email" : "jawad34@g.com",
+      "name" : "Jawad",
+      "workAt" : ""
+    },
+    "hgQITjeE2bhpopcWOTcQwgxTSCW2" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=PastelYellow&clotheType=Hoodie&eyeType=Wink&eyebrowType=RaisedExcitedNatural&facialHairColor=Platinum&facialHairType=MoustacheMagnum&hairColor=Black&hatColor=White&mouthType=Concerned&skinColor=Light&topType=LongHairFrida",
+      "bio" : "",
+      "email" : "ahmadkhan@gmail.com",
+      "name" : "Ahmad",
+      "workAt" : ""
+    },
+    "xZEQi3rNmCfvhckuEzRsBYT51Is2" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Kurt&avatarStyle=Circle&clotheColor=PastelRed&clotheType=Hoodie&eyeType=Hearts&eyebrowType=RaisedExcited&facialHairColor=Platinum&facialHairType=BeardMedium&hairColor=Brown&hatColor=PastelBlue&mouthType=Sad&skinColor=Black&topType=LongHairDreads",
+      "bio" : "",
+      "email" : "any@gmail.com",
+      "name" : "any",
+      "workAt" : ""
+    },
+    "xgBjBsh6xEfK3DQ1Vgo5vbBcI0i2" : {
+      "address" : {
+        "city" : "",
+        "country" : ""
+      },
+      "avatar" : "https://avataaars.io/?accessoriesType=Round&avatarStyle=Circle&clotheColor=PastelGreen&clotheType=BlazerShirt&eyeType=Close&eyebrowType=Angry&facialHairColor=Black&facialHairType=MoustacheFancy&hairColor=BlondeGolden&hatColor=Gray01&mouthType=Vomit&skinColor=Light&topType=ShortHairDreads02",
+      "bio" : "",
+      "email" : "cdjdj@m.co",
+      "name" : "Sabir",
+      "workAt" : ""
+    }
+  }
+}

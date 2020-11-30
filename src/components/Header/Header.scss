@@ -1,0 +1,36 @@
+$bgcolor-primary:#2E86DE;
+.Header {
+  background: $bgcolor-primary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  position: relative;
+  flex: 0 0 10%;
+  &__userNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+  &__userPhoto {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    margin-right: 2rem;
+  }
+  &__userName {
+    font-size: 1.4rem;
+    color: white;
+  }
+  &__icon {
+    font-size: 3rem;
+    color: white;
+    margin-left: 3rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,176 @@
+// Variables
+$bar-color: #fff;
+$ball-color: #fff;
+$bg-color: #1fca74;
+
+.loader {
+  height: 2rem;
+  width: 2rem;
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &__bar {
+    position: absolute;
+    left: 2rem;
+    width: 0.4rem;
+    height: 2rem;
+    background: $bar-color;
+    transform-origin: center bottom;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+
+    @for $i from 1 through 5 {
+      &:nth-child(#{$i}) {
+        left: ($i - 1) * 0.7rem;
+        transform: scale(1, $i * 0.2);
+        animation: barUp#{$i} 4s infinite;
+      }
+    }
+  }
+
+  &__ball {
+    width: 0.5rem;
+    height: 0.5rem;
+    background: $ball-color;
+    border-radius: 50%;
+    animation: ball 4s infinite;
+  }
+}
+
+@keyframes ball {
+  0% {
+    transform: translate(0, 0);
+  }
+  5% {
+    transform: translate(2px, -3px);
+  }
+  10% {
+    transform: translate(3px, -2px);
+  }
+  17% {
+    transform: translate(5px, -6px);
+  }
+  20% {
+    transform: translate(7px, -5  px);
+  }
+  27% {
+    transform: translate(9px, -8px);
+  }
+  30% {
+    transform: translate(12px, -7px);
+  }
+  37% {
+    transform: translate(13px, -11px);
+  }
+  40% {
+    transform: translate(15px, -10px);
+  }
+  50% {
+    transform: translate(15px, 0);
+  }
+  57% {
+    transform: translate(12px, -3px);
+  }
+  60% {
+    transform: translate(11px, -3px);
+  }
+  67% {
+    transform: translate(9px, -6px);
+  }
+  70% {
+    transform: translate(7px, -5px);
+  }
+  77% {
+    transform: translate(6px, -8px);
+  }
+  80% {
+    transform: translate(4px, -8px);
+  }
+  87% {
+    transform: translate(1.5px, -11px);
+  }
+  90% {
+    transform: translate(0, -10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes barUp1 {
+  0% {
+    transform: scale(1, 0.2);
+  }
+  40% {
+    transform: scale(1, 0.2);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  90% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+@keyframes barUp2 {
+  0% {
+    transform: scale(1, 0.4);
+  }
+  40% {
+    transform: scale(1, 0.4);
+  }
+  50% {
+    transform: scale(1, 0.8);
+  }
+  90% {
+    transform: scale(1, 0.8);
+  }
+  100% {
+    transform: scale(1, 0.4);
+  }
+}
+@keyframes barUp3 {
+  0% {
+    transform: scale(1, 0.6);
+  }
+  100% {
+    transform: scale(1, 0.6);
+  }
+}
+@keyframes barUp4 {
+  0% {
+    transform: scale(1, 0.8);
+  }
+  40% {
+    transform: scale(1, 0.8);
+  }
+  50% {
+    transform: scale(1, 0.4);
+  }
+  90% {
+    transform: scale(1, 0.4);
+  }
+  100% {
+    transform: scale(1, 0.8);
+  }
+}
+@keyframes barUp5 {
+  0% {
+    transform: scale(1, 1);
+  }
+  40% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 0.2);
+  }
+  90% {
+    transform: scale(1, 0.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

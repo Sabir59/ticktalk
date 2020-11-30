@@ -1,0 +1,16 @@
+.Messages {
+  padding: 0 0 2rem 0;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  min-height: 90%;
+  max-height: 90%;
+  overflow: auto;
+  &__message {
+    flex: 1;
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+  }
+}

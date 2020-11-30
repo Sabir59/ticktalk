@@ -1,0 +1,25 @@
+.HeaderSearch {
+  padding: 0 2rem;
+  background: #1fca74;
+  flex: 0 0 60%;
+
+  &__label {
+    display: flex;
+    align-items: center;
+  }
+  &__input {
+    width: 100%;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  &__icon {
+    font-size: 2rem;
+    margin-left: -3.5rem;
+    color: #101b4f67;
+  }
+}

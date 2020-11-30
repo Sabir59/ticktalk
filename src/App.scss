@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  max-height: 100vh;
+  &__content {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    background: #edf0f9;
+  }
+}

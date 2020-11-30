@@ -1,0 +1,22 @@
+.PanelSearch {
+  margin-bottom: 3rem;
+  &__label {
+    display: flex;
+    align-items: center;
+  }
+  &__input {
+    width: 100%;
+    border: none;
+    padding: 1.2rem 2rem;
+    border-radius: 6px;
+    background: #101b4f2c;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__icon {
+    font-size: 2rem;
+    margin-left: -3.5rem;
+    color: #101b4f41;
+  }
+}
